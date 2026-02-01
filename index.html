@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine 💖</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card" id="card">
+      <div class="cat">😺❤️</div>
+      <h1 id="question">nirali will you be my valentine?</h1>
+
+      <div class="buttons" id="buttons">
+        <button class="yes" id="yesBtn">Yes</button>
+        <button class="no" id="noBtn">No</button>
+      </div>
+
+      <p class="hint">*No seems a bit shy 😈*</p>
+    </div>
+
+    <div class="result" id="result">
+      <h2>YAY! 🎉💖</h2>
+      <img src="yay.gif" />
+      <button class="share" onclick="shareWhatsApp()">Share on WhatsApp 💬</button>
+    </div>
+  </div>
+
+  <audio id="yesSound" src="yes.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
