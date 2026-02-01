@@ -24,7 +24,7 @@ yesBtn.addEventListener('click', () => {
 
 function shareWhatsApp() {
   const text = encodeURIComponent(
-    "💖 Ranju said YES! Happy Valentine’s Day 💘"
+    "💖 Shw said YES! Happy Valentine’s Day 💘"
   )
   window.open(`https://wa.me/?text=${text}`)
 }
