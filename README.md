@@ -1,6 +1,6 @@
 # 💖 Valentine Proposal App
 
-A cute Valentine proposal web app built with Next.js.
+A cute Valentine proposal web app built with HTML, css and JS.
 
 ## Features
 - Sound effects ❤️
